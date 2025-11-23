@@ -1,0 +1,43 @@
+name: "Bug Report | Hata Bildirme"
+description: "Report a bug / Bir hata bildir"
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description / Açıklama"
+      description: "Describe the issue clearly / Sorunu açıkça açıklayın"
+      placeholder: "The pyramid prints incorrectly... / Piramit yanlış yazdırılıyor..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to Reproduce / Tekrarlama Adımları"
+      description: "Provide the steps / Adımları yazın"
+      placeholder: |
+        1. Run the program / Programı çalıştır
+        2. Enter height / Yükseklik gir
+        3. Error appears / Hata görünüyor
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected Behavior / Beklenen Davranış"
+      placeholder: "The pyramid should be aligned... / Piramit hizalı yazılmalı..."
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual Behavior / Gerçekleşen Davranış"
+      placeholder: "Pyramid appears shifted... / Piramit kaymış görünüyor..."
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: "Environment / Ortam"
+      description: "Java version, OS, etc. / Java sürümü, işletim sistemi vb."
