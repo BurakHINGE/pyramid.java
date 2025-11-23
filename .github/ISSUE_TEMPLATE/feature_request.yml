@@ -1,0 +1,26 @@
+name: "Feature Request | Özellik Talebi"
+description: "Request a new feature / Yeni özellik önerin"
+title: "[FEATURE]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Feature Summary / Özellik Özeti"
+      description: "What do you want added? / Ne eklenmesini istiyorsunuz?"
+      placeholder: "Add inverted pyramid... / Ters piramit ekleme..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: "Reason / Sebep"
+      description: "Why is it useful? / Neden yararlı?"
+      placeholder: "Helps practice loops... / Döngü pratiği için iyi olur..."
+
+  - type: textarea
+    id: details
+    attributes:
+      label: "Details / Detaylar"
+      placeholder: "Maybe allow symbols instead of '*'... / '*' yerine sembol seçmeye izin verilebilir..."
