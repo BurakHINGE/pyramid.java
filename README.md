@@ -9,15 +9,15 @@
 
 ## 📌 Version Info / Sürüm Bilgisi
 
-* **Version:** v1.0.0
-* **Sürüm:** v1.0.0
+* **Version:** v2.0.0
+* **Sürüm:** v2.0.0
 
 ---
 
 | Language / Dil | Link / Bağlantı                 |
 | -------------- | ------------------------------- |
-| 🇬🇧 English   | [English Version](Pyramid.java) |
-| 🇹🇷 Türkçe    | [Türkçe Versiyon](Pyramid.java) |
+| 🇬🇧 English   | 🔜 |
+| 🇹🇷 Türkçe    | ✅ |
 
 ---
 
